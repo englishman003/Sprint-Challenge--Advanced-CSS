@@ -335,6 +335,7 @@ footer {
 .home .walk .walk-text .btn:hover {
   background-color: #F6F6F6;
   color: #22283A;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
