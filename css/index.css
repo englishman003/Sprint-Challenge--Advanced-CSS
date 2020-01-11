@@ -165,6 +165,11 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .main-header-navigation {
+    width: 90%;
+  }
+}
 .main-header-navigation-link {
   font-size: 1.6rem;
   color: #454A59;
@@ -266,7 +271,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {
-    width: 100%;
+    margin-top: 2rem;
+    width: 95%;
   }
 }
 .home .walk .walk-text h3 {
@@ -286,6 +292,13 @@ footer {
   font-weight: bold;
   color: #F6F6F6;
   border-radius: 0.5rem;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    height: 7.5rem;
+    width: 105%;
+    font-size: 1.8rem;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
