@@ -1,1 +1,20 @@
 // Mixins Here
+.flex-item(@d, @j, @a){
+    display: @d;
+    justify-content: @j;
+    align-items: @a;
+}
+.flex-btn-mixin(@d, @j, @a, @h, @w){
+    display: @d;
+    justify-content: @j;
+    align-items: @a;
+    height: @h;
+    width: @w;
+}
+.dimensions(@h, @w){
+    height: @h;
+    width: @w;
+}
+.backflip(){
+    animation: backflip .5s infinite;
+}
